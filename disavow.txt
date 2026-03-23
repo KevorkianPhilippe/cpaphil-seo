@@ -1,0 +1,25 @@
+# CPAPHIL - Disavow file for Google Search Console
+# Created: 2026-03-20
+# Reason: SEO spam attack linking to cpaphil.com with "casino online casino59.de" anchors
+# Impact: 346K+ spam impressions from India, Iraq, Tunisia, Algeria, Ethiopia
+# Target page: /products/cpa-monte-carlo-le-casino-59
+#
+# This file disavows all links from known spam domains involved in the attack.
+# Submit at: https://search.google.com/search-console/disavow-links?resource_id=sc-domain:cpaphil.com
+
+# Primary spam domain
+domain:casino59.de
+
+# Common spam link networks associated with casino SEO attacks
+domain:mesinmpo.com
+domain:malisatani70.netlify.app
+
+# Indonesian gambling spam (from the December 2025 DNS hijack)
+domain:mesinmpo.netlify.app
+
+# Generic casino spam link farms (add more as discovered)
+# To find more spam domains:
+# 1. Use Ahrefs or Semrush to audit backlinks to cpaphil.com
+# 2. Filter for anchors containing "casino", "gambling", "slot"
+# 3. Add offending domains here with "domain:" prefix
+# 4. Re-submit this file in GSC

@@ -92,5 +92,6 @@ Disallow: /login
 Disallow: /signup
 Crawl-delay: 5
 
-# Sitemaps
+# Sitemaps — hosted on seo.cpaphil.com (GitHub Pages)
+# www.cpaphil.com does not serve sitemap.xml (Nuxt returns 404)
 Sitemap: https://seo.cpaphil.com/sitemap.xml
